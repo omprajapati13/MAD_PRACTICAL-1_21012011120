@@ -1,4 +1,4 @@
-fun main(){
+fun main() {
     println("Enter student's Enrollment Number : ")
     var enno = readLine()
     println("Enter student's Name : ")
