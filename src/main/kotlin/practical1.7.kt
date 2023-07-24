@@ -8,10 +8,10 @@ fun main()
 }
 
 fun Factorial(num: Int): Long {
-    if (num >= 1) {
-        return num * Factorial( num -1)
+    return if (num >= 1) {
+        num * Factorial( num -1)
     }
     else {
-        return 1
+        1
     }
 }
